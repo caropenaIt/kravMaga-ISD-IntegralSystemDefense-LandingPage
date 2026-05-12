@@ -1,0 +1,257 @@
+/* Servicios Section */
+#servicios {
+  background-color: rgb(18, 18, 18);
+  padding: 60px 40px;
+  color: white;
+}
+
+/* Encabezado */
+.servicios-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.servicios-header .subtitle {
+  color: rgb(199, 16, 46);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.servicios-header h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.servicios-header h2 .texto-rojo {
+  color: rgb(199, 16, 46);
+}
+
+.underline {
+  width: 80px;
+  height: 3px;
+  background-color: rgb(199, 16, 46);
+  margin: 20px auto;
+}
+
+.servicios-header .description {
+  font-size: 18px;
+  color: rgb(180, 180, 180);
+  max-width: 700px;
+  margin: 30px auto 0;
+  line-height: 1.6;
+}
+
+/* Grid de Servicios */
+.servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  margin-bottom: 80px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.servicio-card {
+  border: 2px solid rgb(199, 16, 46);
+  padding: 50px;
+  background-color: rgba(199, 16, 46, 0.05);
+  position: relative;
+}
+
+.servicio-number {
+  font-size: 80px;
+  font-weight: 700;
+  color: rgba(199, 16, 46, 0.2);
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  line-height: 1;
+}
+
+.servicio-card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
+  color: white;
+}
+
+.servicio-card > p {
+  font-size: 16px;
+  color: rgb(180, 180, 180);
+  line-height: 1.7;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.nivel-text {
+  margin-bottom: 15px !important;
+}
+
+.nivel-text .texto-rojo {
+  color: rgb(199, 16, 46);
+  font-weight: 700;
+}
+
+.servicio-card ul {
+  list-style: none;
+  text-align: left;
+}
+
+.servicio-card li {
+  font-size: 15px;
+  color: rgb(180, 180, 180);
+  margin-bottom: 12px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.servicio-card li:before {
+  content: "—";
+  color: rgb(199, 16, 46);
+  margin: 15px;
+  font-weight: bold;
+  list-style-position: inside;
+}
+
+/* Banner Instituciones */
+.banner-instituciones {
+  background: linear-gradient(135deg, rgb(199, 16, 46) 0%, rgb(230, 20, 60) 100%);
+  padding: 50px;
+  border-left: 5px solid rgb(199, 16, 46);
+}
+
+.banner-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner-instituciones h3 {
+  font-size: 45px;
+  font-weight: 700;
+
+  color: white;
+
+}
+
+.banner-instituciones p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 35px;
+  line-height: 1.6;
+
+}
+
+.banner-button {
+  background-color: white;
+  color: rgb(199, 16, 46);
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  font-family: var(--font-titulo);
+}
+
+.banner-button:hover {
+  background-color: grey;
+  color: white;
+  border: 2px solid white;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  #servicios {
+    padding: 40px 20px;
+  }
+
+  .servicios-header h2 {
+    font-size: 40px;
+  }
+
+  .servicios-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+
+  .servicio-card {
+    padding: 40px;
+  }
+
+  .servicio-number {
+    font-size: 60px;
+  }
+
+  .servicio-card h3 {
+    font-size: 22px;
+  }
+
+  .banner-instituciones {
+    margin: 0 -20px -40px -20px;
+    padding: 40px 20px;
+  }
+
+  .banner-instituciones h3 {
+    font-size: 32px;
+  }
+
+  .banner-instituciones p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  #servicios {
+    padding: 30px 15px;
+  }
+
+  .servicios-header h2 {
+    font-size: 28px;
+  }
+
+  .servicios-header .description {
+    font-size: 14px;
+  }
+
+  .servicio-card {
+    padding: 30px;
+    border-width: 1px;
+  }
+
+  .servicio-number {
+    font-size: 40px;
+  }
+
+  .servicio-card h3 {
+    font-size: 18px;
+  }
+
+  .servicio-card > p,
+  .servicio-card li {
+    font-size: 13px;
+  }
+
+  .banner-instituciones h3 {
+    font-size: 24px;
+  }
+
+  .banner-instituciones p {
+    font-size: 14px;
+  }
+
+  .banner-button {
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+}

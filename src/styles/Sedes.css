@@ -1,0 +1,286 @@
+/* SEDES */
+.sedes{
+  background-color: rgb(10, 10, 10);
+  padding: 60px 40px;
+  min-height: 100vh;
+}
+
+.sedes a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Encabezado titular */
+.sedes .titular {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.sedes .titular .subtitle {
+  color: rgb(199, 16, 46);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.sedes .titular h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.sedes .titular h2 .red-text {
+  color: rgb(199, 16, 46);
+}
+
+.sedes .titular .underline {
+  width: 80px;
+  height: 3px;
+  background-color: rgb(199, 16, 46);
+  margin: 20px auto;
+}
+
+.sedes .titular .description {
+  font-size: 18px;
+  color: rgb(180, 180, 180);
+  max-width: 700px;
+  margin: 30px auto 0;
+  line-height: 1.6;
+  padding: 0;
+}
+
+.sedes-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tarjeta-sede{
+  background-color: rgb(20, 20, 20);
+  border: 1px solid rgba(199, 16, 46, 0.2);
+  border-radius: 8px;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.tarjeta-sede .texto-rojo{
+  color: var(--red-text);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.tarjeta-sede h3{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.tarjeta-sede .zona{
+  color: var(--red-text);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.tarjeta-sede, .info-sede{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgb(180, 180, 180);
+  font-size: 13px;
+  margin: 0;
+}
+
+.info-sede p{
+  margin: 0;
+  color: rgb(200, 200, 200);
+}
+
+.tarjeta-sede .info-sede{
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tarjeta-sede .icono{
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.tarjeta-sede .plataforma{
+  font-size: 11px;
+  color: rgb(150, 150, 150);
+}
+
+.tarjeta-sede .botones-sede{
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  button{
+    border: none;
+  }
+}
+
+.tarjeta-sede .boton-whatsapp,
+.tarjeta-sede .boton-instagram{
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tarjeta-sede .boton-whatsapp{
+  background-color: rgb(37, 211, 102);
+  color: white;
+}
+
+.tarjeta-sede .boton-whatsapp:hover{
+  background-color: rgb(30, 180, 85);
+}
+
+.tarjeta-sede .boton-instagram{
+  background-color: rgb(20, 20, 20);
+  border: 1px solid rgb(180, 180, 180);
+  color: white;
+}
+
+.tarjeta-sede .boton-instagram:hover{
+  border-color: var(--red-text);
+  color: var(--red-text);
+}
+
+ul{
+  list-style-type: none;
+}
+.loguitos{
+  width: 20px;
+  height: 20px;
+  gap: 15px;
+}
+
+/* TARJETA ALTERNATIVA - ¿QUERÉS SUMARTE? */
+.tarjeta-alternativa{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  max-width: 1400px;
+  margin: 60px auto 0;
+  margin-bottom: 15px;
+  padding: 60px 40px;
+  background-color: rgb(20, 20, 20);
+  border: 1px solid rgba(199, 16, 46, 0.2);
+  border-radius: 8px;
+  align-items: start;
+}
+
+.contenido-izquierdo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contenido-izquierdo .texto-rojo {
+  color: var(--red-text);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contenido-izquierdo h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.descripcion-alternativa {
+  color: rgb(180, 180, 180);
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.boton-principal {
+  border: none;
+  background-color: rgb(199, 16, 46);
+  padding: 15px 30px;
+  border-radius: 4px;
+  width: fit-content;
+  transition: all 0.3s ease;
+  align-self: center;
+}
+
+.boton-principal:hover {
+  background-color: rgb(170, 10, 40);
+}
+
+.boton-principal a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contenido-derecho {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.opcion-alternativa {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opcion-alternativa .texto-rojo {
+  color: var(--red-text);
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 600;
+}
+
+.opcion-alternativa p:not(.texto-rojo) {
+  color: rgb(180, 180, 180);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px){
+  .sedes-container{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .tarjeta-sede{
+    padding: 25px 20px;
+  }
+  
+  .tarjeta-sede h3{
+    font-size: 18px;
+  }
+}

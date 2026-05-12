@@ -1,0 +1,347 @@
+/* HERO Y SUBHERO - PRIMERA PARTE DE INICIO */
+.inicio{
+  background-image: url('./assets/Logos/fondo.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .boton-rojo{
+    background-color: rgb(199, 16, 46);
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  
+  }
+  .boton-rojo:hover{
+      cursor: pointer;
+      background-color: rgb(160, 13, 38);
+    }
+  .boton-negro{
+    background-color: black;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+   
+  }
+   .boton-negro:hover{
+      background-color: rgb(38, 11, 16);
+    border: solid 1px rgb(199, 16, 46);
+    cursor: pointer;
+    }
+.hero{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.hero img{
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+p{
+  color: white;
+  font-family: var(--font-parrafo);
+  margin: 0;
+}
+
+.texto-rojo{
+  color: var(--red-text);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.seudoButton{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.seudoButton p{
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.seudoButton .rojo{
+  background-color: rgb(38, 11, 16);
+  border: solid 1px rgb(199, 16, 46);
+  color: white;
+}
+
+.seudoButton p:not(.rojo){
+  background-color: transparent;
+  border: solid 1px rgb(100, 100, 100);
+  color: white;
+}
+
+.botones{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+      .boton-negro{
+      border: solid 1px rgb(199, 16, 46);
+    }
+}
+
+.botones button{
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subHero{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  width: 100%;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  span{
+    color: white;
+  }
+
+}
+
+.datos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+    p{
+    color: var(--grey-color);
+  }
+}
+
+.datos .numero{
+  color: var(--red-text);
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.datos p:last-child{
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* QUE ES EL KRAV MAGA */
+.krav{
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  gap: 60px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.krav .texto-rojo{
+  color: var(--red-text);
+}
+
+.krav span{
+  color: white;
+}
+
+.krav .def{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  min-width: 350px;
+  max-width: 500px;
+  .texto-rojo{
+    color: var(--red-text);
+  }
+}
+
+.krav .def h1{
+  font-size: 48px;
+  color: white;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.krav .def p{
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgb(200, 200, 200);
+}
+
+.krav .defUno{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  flex: 1;
+  min-width: 350px;
+}
+
+.krav .hechos{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  background-color: rgba(199, 16, 46, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid rgb(199, 16, 46);
+}
+
+.krav .hechos p:first-child{
+  font-size: 36px;
+  margin: 0;
+}
+
+.krav .hechos p:nth-child(2){
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  margin: 0;
+}
+
+.krav .hechos p:last-child{
+  font-size: 13px;
+  color: rgb(180, 180, 180);
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+
+/* PÚBLICO - PARA QUIÉN ES */
+.publico{
+  background-color: rgb(20, 20, 20);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 60px 20px;
+  margin: 10px;
+}
+
+.publico-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  position: relative;
+  .rojo{
+background-color: rgb(38, 11, 16);
+  border: solid 1px rgb(199, 16, 46);
+  color: rgb(199, 16, 46);
+  }
+button{
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+}
+
+.publico-item:hover{
+  background-color: var(--grey-color);
+}
+.publico-item .icono{
+  font-size: 48px;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.publico-item h3{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.publico-item .descripcion{
+  font-size: 14px;
+  color: rgb(180, 180, 180);
+  line-height: 1.6;
+  margin: 10px 0 0 0;
+  min-height: 60px;
+  position: relative;
+  z-index: 2;
+}
+
+/* SUMATE */
+.sumate{
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  padding: 20px;
+  margin: 10px;
+  gap: 50px;
+  .texto-rojo{
+    color: var(--red-text);
+  }
+  span{
+    color: white;
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px){
+  .hero img{
+    max-width: 400px;
+  }
+  
+  .seudoButton p{
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  
+  .botones button{
+    padding: 12px 30px;
+    font-size: 12px;
+  }
+  
+  .datos .numero{
+    font-size: 36px;
+  }
+  
+  .datos p:last-child{
+    font-size: 11px;
+  }
+}
