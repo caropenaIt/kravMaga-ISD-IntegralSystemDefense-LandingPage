@@ -15,8 +15,6 @@ const QuienesSomos = () => {
 
         <div className="director-imagen">
           <img src={marceloImg} alt="Marcelo Alejandro Olmos" />
-          <p className="texto-rojo director-label">DIRECTOR</p>
-          <h3 className="director-nombre">MARCELO ALEJANDRO OLMOS</h3>
         </div>
         <div className="director-info">
           <p className="subtitulo-director texto-rojo">NUESTRO DIRECTOR</p>

@@ -201,7 +201,7 @@ p{
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   flex: 1;
-  min-width: 350px;
+  width: 350px;
 }
 
 .krav .hechos{
@@ -322,9 +322,93 @@ button{
 }
 
 /* RESPONSIVE */
-@media (max-width: 768px){
+@media (min-width: 320px) and (max-width: 550px){
+  .inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero{
+    padding: 25px 15px;
+    gap: 20px;
+  }
+  
   .hero img{
-    max-width: 400px;
+    max-width: 280px;
+  }
+  
+  .seudoButton p{
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+  
+  .botones{
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+   .boton-principal{
+    width: 100%;
+    }
+  }
+  
+  .botones button{
+    padding: 12px 25px;
+    font-size: 12px;
+
+  }
+  
+  .subHero{
+    gap: 25px;
+  }
+  
+  .datos .numero{
+    font-size: 32px;
+  }
+  
+  .datos p:last-child{
+    font-size: 10px;
+  }
+  
+  .krav {
+    width: 100%;
+    padding: 40px 15px;
+    gap: 30px;
+  }
+  
+  .krav .def h1 {
+    font-size: 28px;
+  }
+  
+  .krav .def p {
+    font-size: 12px;
+    padding: 20px;
+  }
+ 
+.publico{
+  display: flex;
+  flex-direction: column;
+}
+
+  .publico-item {
+    padding: 20px;
+  }
+  
+  .sumate {
+    height: auto;
+    padding: 30px 15px;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 750px){
+  .hero{
+    padding: 30px 20px;
+    gap: 25px;
+  }
+  
+  .hero img{
+    max-width: 380px;
   }
   
   .seudoButton p{
@@ -333,15 +417,107 @@ button{
   }
   
   .botones button{
-    padding: 12px 30px;
-    font-size: 12px;
+    padding: 13px 32px;
+    font-size: 13px;
+  }
+  
+  .subHero{
+    gap: 30px;
   }
   
   .datos .numero{
-    font-size: 36px;
+    font-size: 40px;
   }
   
   .datos p:last-child{
     font-size: 11px;
+  }
+  
+  .krav {
+    padding: 50px 25px;
+    gap: 40px;
+  }
+  
+  .krav .def h1 {
+    font-size: 40px;
+  }
+  
+  .krav .def p {
+    font-size: 15px;
+  }
+  .publico{
+    display: flex;
+    flex-direction: column;
+  }
+  .publico-item {
+    padding: 25px;
+  }
+  
+  .sumate {
+    height: auto;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1100px){
+  .hero{
+    padding: 35px 25px;
+    gap: 28px;
+  }
+  
+  .hero img{
+    max-width: 550px;
+  }
+  
+  .seudoButton p{
+    padding: 11px 18px;
+    font-size: 13px;
+  }
+  
+  .botones button{
+    padding: 14px 38px;
+    font-size: 13px;
+  }
+  
+  .subHero{
+    gap: 35px;
+  }
+  
+  .datos .numero{
+    font-size: 44px;
+  }
+  
+  .datos p:last-child{
+    font-size: 12px;
+  }
+  
+  .krav {
+    padding: 55px 30px;
+    gap: 50px;
+  }
+  
+  .krav .def h1 {
+    font-size: 44px;
+  }
+  
+  .krav .def p {
+    font-size: 15px;
+  }
+  .publico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .publico-item {
+    padding: 28px;
+  }
+  
+  .sumate {
+    height: 600px;
+    padding: 40px 30px;
+    gap: 45px;
   }
 }

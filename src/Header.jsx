@@ -11,8 +11,9 @@ const Header = () => {
   
   return (
     <header>
+      <img src="./assets/Logos/logo2.png" alt="logo" />
       <nav id="navbar">
-        <img src="./assets/Logos/logo2.png" alt="logo" />
+        
         <ul className="nav-links">
           <li><Link to="/" className={isActive('/')}>Inicio</Link></li>
           <li><Link to="/servicios" className={isActive('/servicios')}>Servicios</Link></li>

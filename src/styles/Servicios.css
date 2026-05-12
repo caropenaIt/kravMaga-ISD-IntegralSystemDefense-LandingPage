@@ -170,48 +170,7 @@
 
 
 /* Responsive */
-@media (max-width: 768px) {
-  #servicios {
-    padding: 40px 20px;
-  }
-
-  .servicios-header h2 {
-    font-size: 40px;
-  }
-
-  .servicios-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-    margin-bottom: 60px;
-  }
-
-  .servicio-card {
-    padding: 40px;
-  }
-
-  .servicio-number {
-    font-size: 60px;
-  }
-
-  .servicio-card h3 {
-    font-size: 22px;
-  }
-
-  .banner-instituciones {
-    margin: 0 -20px -40px -20px;
-    padding: 40px 20px;
-  }
-
-  .banner-instituciones h3 {
-    font-size: 32px;
-  }
-
-  .banner-instituciones p {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 550px) {
   #servicios {
     padding: 30px 15px;
   }
@@ -224,13 +183,19 @@
     font-size: 14px;
   }
 
+  .servicios-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
   .servicio-card {
-    padding: 30px;
+    padding: 25px;
     border-width: 1px;
   }
 
   .servicio-number {
-    font-size: 40px;
+    display: none;
   }
 
   .servicio-card h3 {
@@ -240,6 +205,11 @@
   .servicio-card > p,
   .servicio-card li {
     font-size: 13px;
+  }
+
+  .banner-instituciones {
+    padding: 30px 15px;
+    margin: 0 -15px -30px -15px;
   }
 
   .banner-instituciones h3 {
@@ -253,5 +223,99 @@
   .banner-button {
     padding: 12px 20px;
     font-size: 13px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+  #servicios {
+    padding: 40px 25px;
+  }
+
+  .servicios-header h2 {
+    font-size: 40px;
+  }
+
+  .servicios-header .description {
+    font-size: 16px;
+  }
+
+  .servicios-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+
+  .servicio-card {
+    padding: 35px;
+  }
+
+  .servicio-number {
+    font-size: 55px;
+  }
+
+  .servicio-card h3 {
+    font-size: 22px;
+  }
+
+  .servicio-card > p,
+  .servicio-card li {
+    font-size: 14px;
+  }
+
+  .banner-instituciones {
+    margin: 0 -25px -40px -25px;
+    padding: 40px 25px;
+  }
+
+  .banner-instituciones h3 {
+    font-size: 35px;
+  }
+
+  .banner-instituciones p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1100px) {
+  #servicios {
+    padding: 50px 35px;
+  }
+
+  .servicios-header h2 {
+    font-size: 50px;
+  }
+
+  .servicios-header .description {
+    font-size: 17px;
+  }
+
+  .servicios-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .servicio-card {
+    padding: 45px;
+  }
+
+  .servicio-number {
+    font-size: 70px;
+  }
+
+  .servicio-card h3 {
+    font-size: 25px;
+  }
+
+  .banner-instituciones {
+    margin: 0 -35px -50px -35px;
+    padding: 45px 35px;
+  }
+
+  .banner-instituciones h3 {
+    font-size: 40px;
+  }
+
+  .banner-instituciones p {
+    font-size: 17px;
   }
 }

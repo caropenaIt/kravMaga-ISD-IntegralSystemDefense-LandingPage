@@ -115,25 +115,7 @@
   display: block;
 }
 
-.director-label {
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
-  margin: 0;
-}
 
-.director-nombre {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 0;
-  padding: 10px;
-  color: white;
-}
 
 .director-info {
   display: flex;
@@ -197,23 +179,133 @@
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
+@media (min-width: 320px) and (max-width: 550px) {
+  .quienes-somos {
+    padding: 2rem 1rem;
+  }
+  
+  .quienes-somos .titular {
+    margin-bottom: 40px;
+  }
+  
+  .quienes-somos .titular h2 {
+    font-size: 32px;
+  }
+  
+  .quienes-somos .titular .description {
+    font-size: 14px;
+  }
+  
+  .credenciales {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .director-section {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    margin-bottom: 60px;
+  }
+  .director-imagen{
+    h3,p{
+      display: none;
+    }
+  }
+  .director-imagen img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+  }
+  
+  .nombre-director {
+    font-size: 1.2rem;
+  }
+  
+  .titulo-credencial {
+    font-size: 0.85rem;
+  }
+  
+  .item-credencial {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+  .quienes-somos {
+    padding: 2.5rem 1.5rem;
+  }
+  
+  .quienes-somos .titular {
+    margin-bottom: 60px;
+  }
+  
+  .quienes-somos .titular h2 {
+    font-size: 44px;
+  }
+  
+  .quienes-somos .titular .description {
+    font-size: 16px;
+  }
+  
   .credenciales {
     grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
   }
 
   .director-section {
     grid-template-columns: 1fr;
     gap: 2rem;
+    padding-top: 2.5rem;
+    margin-bottom: 80px;
+  }
+  
+  .director-imagen img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+  }
+  
+  .nombre-director {
+    font-size: 1.4rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 751px) and (max-width: 1100px) {
+  .quienes-somos {
+    padding: 3rem 2rem;
+  }
+  
+  .quienes-somos .titular {
+    margin-bottom: 70px;
+  }
+  
+  .quienes-somos .titular h2 {
+    font-size: 52px;
+  }
+  
   .credenciales {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.8rem;
+    margin-bottom: 3.5rem;
   }
 
+  .director-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    padding-top: 3rem;
+    margin-bottom: 100px;
+  }
+  
+  .director-imagen img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+  }
+  
   .nombre-director {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
