@@ -11,7 +11,7 @@ const Header = () => {
   
   return (
     <header>
-      <img src="./assets/Logos/logo2.png" alt="logo" />
+      <img src="/logo2.png" alt="logo" />
       <nav id="navbar">
         
         <ul className="nav-links">

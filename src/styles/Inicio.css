@@ -1,6 +1,6 @@
 /* HERO Y SUBHERO - PRIMERA PARTE DE INICIO */
 .inicio{
-  background-image: url('./assets/Logos/fondo.png');
+  background: url('/fondo.png');
   background-size: cover;
   background-position: center;
   display: flex;
