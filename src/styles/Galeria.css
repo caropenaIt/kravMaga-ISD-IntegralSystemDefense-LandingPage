@@ -82,10 +82,10 @@
     place-items: center;
     grid-template-columns: repeat(3, 0.3fr);
     gap: 10px;
-    padding: 20px;
+    padding: 10px;
     img{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         border-radius: 5px;
         border: solid 1px rgb(199, 16, 46);
     }
@@ -168,7 +168,7 @@
 
     .galeria-container img,
     .galeria-container video {
-        width: 100%;
+        width: 250px;
         height: 250px;
     }
 }
@@ -189,7 +189,7 @@
 
     .galeria-container img,
     .galeria-container video {
-        width: 100%;
+        width: 300px;
         height: 300px;
     }
 }

@@ -1,6 +1,9 @@
 import React from 'react';
 import './styles/QuienesSomos.css';
 import marceloImg from '../assets/fotos/treintaysiete.jpg';
+import bleedTres from '../assets/logos/bleed3.png';
+import bleedCuatro from '../assets/logos/bleed4.png';
+import combatCare from '../assets/logos/cccrp.png';
 
 const QuienesSomos = () => {
   return (
@@ -10,6 +13,12 @@ const QuienesSomos = () => {
           <h2>QUIÉNES<br /><span className='red-text'> SOMOS</span></h2>
           <div className="underline"></div>
           <p className='description'>Institución reconocida por su trayectoria y profesionalismo, con sedes en varios países y en continuo crecimiento.</p>
+          <p className='description'>Tambien somos formadores de Instructores STOP THE BLEED® certificados y avalados por el Departamento de Defensa de los Estados Unidos, Agencia de Salud de la Defensa.</p>
+          <div className='bleedLogos'>
+            <img className='bleedTres' src={bleedTres} alt="Logo STOP THE BLEED" />
+            <img src={bleedCuatro} alt="Logo STOP THE BLEED" />
+            <img src={combatCare} alt="Logo COMBAT CARE" />
+          </div>
         </div>
 <div className="director-section">
 

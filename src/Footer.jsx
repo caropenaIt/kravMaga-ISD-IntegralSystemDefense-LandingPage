@@ -2,6 +2,11 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import './styles/Footer.css';
+import defense from '../assets/logos/defense.png';
+import bleed1 from '../assets/logos/bleed1.jpeg';
+import bleed2 from '../assets/logos/bleed2.jpeg';
+
+
 const Footer = () => {
   const navigate = useNavigate();
     return(
@@ -67,6 +72,11 @@ const Footer = () => {
           <li><a href="https://instagram.com/isdkravmagainternacional" target="_blank">Instagram</a></li>
         </ul>
       </div>
+          <div className="footer-logos">
+          <img className="logoUno" src={bleed1} alt="Logo STOP THE BLEED" />
+          <img className="logoDos" src={bleed2} alt="Logo STOP THE BLEED" />
+          <img className="logoTres" src={defense} alt="Logo Defensa" />
+        </div>
     </div>
     <div className="footer-bottom">
       <p>© 2026 Krav Maga <span className="texto-rojo">Integral System Defense</span>— Todos los derechos reservados</p>
