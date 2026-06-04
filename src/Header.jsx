@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './styles/Header.css';
+//provisorio
+// import logoBlanco from '../assets/Logos/logo-blanco.png';
+
 
 const Header = () => {
   const location = useLocation();
@@ -12,6 +15,7 @@ const Header = () => {
   return (
     <header>
       <img src="/logo2.png" alt="logo" />
+      {/* <img className="logo-blanco" src={logoBlanco} alt="logo blanco" /> */}
       <nav id="navbar">
         
         <ul className="nav-links">

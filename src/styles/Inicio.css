@@ -1,11 +1,9 @@
 /* HERO Y SUBHERO - PRIMERA PARTE DE INICIO */
 .inicio{
-  background: url('/fondo.png');
-  background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
   }
 
   .boton-rojo{
@@ -34,13 +32,17 @@
     cursor: pointer;
     }
 .hero{
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   width: 100%;
+  height: 100vh;
   padding: 40px 20px;
   gap: 30px;
+
 }
 
 .hero img{
@@ -55,10 +57,11 @@ p{
   margin: 0;
 }
 
-.texto-rojo{
+.rojo-bold{
   color: var(--red-text);
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .seudoButton{
@@ -114,12 +117,17 @@ p{
 }
 
 .subHero{
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: space-around;
-  gap: 40px;
+  gap: 20px;
   width: 100%;
-  margin-top: 30px;
+  margin: 10px;
+  border-radius: 10px;
   flex-wrap: wrap;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6 );
   span{
     color: white;
   }
@@ -242,9 +250,10 @@ p{
   background-color: rgb(20, 20, 20);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  padding: 60px 20px;
+  gap: 20px;
+  align-items: center;
   margin: 10px;
+  height: 320px;
 }
 
 .publico-item{
@@ -309,7 +318,7 @@ button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 650px;
+  height: 320px;
   padding: 20px;
   margin: 10px;
   gap: 50px;
@@ -359,7 +368,9 @@ button{
   }
   
   .subHero{
-    gap: 25px;
+    gap: 15px;
+    position: relative;
+    top: -100px;
   }
   
   .datos .numero{
@@ -388,6 +399,7 @@ button{
 .publico{
   display: flex;
   flex-direction: column;
+  height: auto;
 }
 
   .publico-item {
@@ -448,6 +460,7 @@ button{
   .publico{
     display: flex;
     flex-direction: column;
+    height: auto;
   }
   .publico-item {
     padding: 25px;
@@ -482,6 +495,7 @@ button{
   
   .subHero{
     gap: 35px;
+    
   }
   
   .datos .numero{
@@ -509,6 +523,7 @@ button{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    height: auto;
   }
 
   .publico-item {
