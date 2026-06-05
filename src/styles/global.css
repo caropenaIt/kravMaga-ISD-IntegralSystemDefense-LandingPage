@@ -17,7 +17,7 @@
 
 body {
   font-family: var(--font-parrafo);
-  background-color: rgb(18, 18, 18);
+  background-color: rgb(10, 10, 10);
 }
 p{
   font-family: var(--font-parrafo);
@@ -28,9 +28,4 @@ h1,h2,h3,h4,h5,h6{
 }
 button{
   color: white;
-}
-
-/* Utility Classes */
-.red-text {
-  color: var(--red-text);
 }

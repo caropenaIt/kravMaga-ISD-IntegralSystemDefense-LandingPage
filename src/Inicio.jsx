@@ -3,6 +3,7 @@ import './styles/Inicio.css';
 import logoHero from '../assets/Logos/logo 1.png';
 import { useNavigate } from 'react-router-dom';
 import HeroBanner from './HeroBanner';
+import logo from '../assets/Logos/logo-blanco.png';
 
 
 const Inicio = () => {
@@ -13,14 +14,14 @@ const Inicio = () => {
     <main className='inicio'>
     <div className='hero'>
       <p className='rojo-bold'>SISTEMA DE DEFENSA PERSONAL · ISRAEL</p>
-      <img src={logoHero} alt="krav maga isd" />
-      <p>El sistema de defensa personal más efectivo del mundo, desarrollado para responder ante situaciones reales de amenaza con máxima eficiencia.</p>
+      <img src={logo} alt="krav maga isd" />
+      <p className='blanco-bold'>El sistema de defensa personal más efectivo del mundo, desarrollado para responder ante situaciones reales de amenaza con máxima eficiencia.</p>
       <div className='seudoButton'>
-        <p className='rojo'>PARA AMBOS SEXOS</p>
-        <p className='rojo'>TODAS LAS EDADES</p>
-        <p className='rojo'>CIVILES</p>
-        <p className='rojo'>FUERZAS DE SEGURIDAD</p>
-        <p className='rojo'>INSTRUCTORES</p>
+        <p>PARA AMBOS SEXOS</p>
+        <p>TODAS LAS EDADES</p>
+        <p>CIVILES</p>
+        <p>FUERZAS DE SEGURIDAD</p>
+        <p>INSTRUCTORES</p>
       </div>
       <div className='botones'>
           <button className="boton-principal" onClick={() => {

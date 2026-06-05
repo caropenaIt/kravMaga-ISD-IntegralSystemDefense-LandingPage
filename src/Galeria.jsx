@@ -53,6 +53,7 @@ import operativoCorrientes from '../assets/videos/operativoCorrientes.mp4';
 import defFemenino from '../assets/videos/tallerDefMujer.mp4';
 import tallerPF from '../assets/videos/tallerPF.mp4';
 import instructor from '../assets/videos/trainingInstructor.mp4';
+import instructorDos from '../assets/videos/clase-instructor.mp4';
 
 const Galeria = () => {
     return(
@@ -149,6 +150,9 @@ const Galeria = () => {
             </video>
             <video width="350" height="350" controls>
                 <source src={instructor} type="video/mp4" />
+            </video>
+            <video width="350" height="350" controls>
+                <source src={instructorDos} type="video/mp4" />
             </video>
         </div>
       </article>
