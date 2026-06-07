@@ -5,6 +5,9 @@ import marce from '../assets/fotos/instruct/marceloOlmos.png';
 import nahuel from '../assets/fotos/instruct/nahuelSussini.png';
 import cris from '../assets/fotos/instruct/cristianFron.png';
 import gaston from '../assets/fotos/instruct/gastonSzurin.png';
+import alex from '../assets/fotos/instruct/instructor-uruguay.png';
+import luis from '../assets/fotos/instruct/instructor-chile.png';
+import daniel from '../assets/fotos/instruct/instructor-daniel.png';
 
 const Sedes = () => {
   const navigate = useNavigate();
@@ -42,7 +45,7 @@ const Sedes = () => {
 {/* SEDE 2 */}
         <article className="tarjeta-sede">
           <p className="texto-rojo">SEDE 02</p>
-          <h3>MORON, BUENOS AIRES, ARGENTINA</h3>
+          <h3>MORÓN, BUENOS AIRES, ARGENTINA</h3>
           <img src={marce} alt="Marcelo Olmos" />
           <p className="zona">MARCELO ALEJANDRO OLMOS</p>
           <div className="info-sede">
@@ -83,7 +86,7 @@ const Sedes = () => {
         {/* SEDE 4 */}
                 <article className="tarjeta-sede">
           <p className="texto-rojo">SEDE 04</p>
-          <h3>BENAVIDEZ, BUENOS AIRES, ARGENTINA</h3>
+          <h3>BENAVÍDEZ, BUENOS AIRES, ARGENTINA</h3>
           <img src={gaston} alt="Gastón Szurin" />
           <p className="zona">Gastón Szurin</p>
           <div className="info-sede">
@@ -100,7 +103,8 @@ const Sedes = () => {
           <article className="tarjeta-sede">
           <p className="texto-rojo">SEDE 05</p>
           <h3>PASO DE LOS LIBRES, CORRIENTES, ARGENTINA</h3>
-          <p className="zona">DANIEL VERóN</p>
+          <img src={daniel} alt="Daniel Verón" />
+          <p className="zona">DANIEL VERÓN</p>
           <div className="info-sede">
             <p className='icono'> 🎖️ Instructor Certificado</p>
           </div>
@@ -139,6 +143,7 @@ const Sedes = () => {
           <article className="tarjeta-sede">
           <p className="texto-rojo">SEDE 07</p>
           <h3>CHILE</h3>
+          <img src={luis} alt="Luis Gonzalez Castro" />
           <p className="zona">LUIS GONZALEZ CASTRO</p>
           <div className="info-sede">
             <p className='icono'> 🎖️ Instructor Certificado</p>
@@ -158,6 +163,7 @@ const Sedes = () => {
           <article className="tarjeta-sede">
           <p className="texto-rojo">SEDE 08</p>
           <h3>URUGUAY</h3>
+          <img src={alex} alt="Alexander Ripoll" />
           <p className="zona">ALEXANDER RIPOLL</p>
           <div className="info-sede">
             <p className='icono'> 🎖️ Instructor Certificado</p>

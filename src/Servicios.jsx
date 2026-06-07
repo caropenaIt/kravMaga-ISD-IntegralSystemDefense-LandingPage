@@ -9,7 +9,7 @@ const Servicios = () => {
       {/* Encabezado */}
       <div className="servicios-header">
         <p className="subtitle">LO QUE OFRECEMOS</p>
-        <h2>NUESTROS<br /><span className="red-text">SERVICIOS</span></h2>
+        <h2>NUESTROS<br /><span className="texto-rojo">SERVICIOS</span></h2>
         <div className="underline"></div>
         <p className="description">Formación completa en defensa personal para individuos, grupos e instituciones, con metodología certificada y contenido adaptado a cada necesidad.</p>
       </div>

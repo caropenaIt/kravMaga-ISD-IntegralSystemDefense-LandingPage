@@ -5,7 +5,6 @@
   color: white;
 }
 
-/* Encabezado titular */
 #galeria .titular {
   text-align: center;
   margin-bottom: 80px;
@@ -81,16 +80,19 @@
     place-content: center;
     place-items: center;
     grid-template-columns: repeat(3, 0.3fr);
-    gap: 10px;
+    gap: 50px;
     padding: 10px;
     img{
        width: 100%;
-       height: auto;
-        border: solid 1px rgb(199, 16, 46);
+       height: 480px;
+       object-fit: contain;
+       border: solid 1px rgb(199, 16, 46);
+       background:url(/assets/logos/fondo.png) no-repeat center center;
+       background-size: cover;
     }
     img:hover{
          transform: scale(1.4);
-         transition: transform 0.5s ease;
+         transition: transform 0.5s ease; 
     }
     video{
         border-radius: 5px;
@@ -104,8 +106,6 @@
         padding: 40px 20px;
         img{
           transform: none;
-          width: 100%;
-       height: auto;
         }
     }
 
@@ -135,7 +135,6 @@
     .galeria-container img,
     .galeria-container video {
         width: 100%;
-        height: auto;
         aspect-ratio: 4/3;
     }
 }

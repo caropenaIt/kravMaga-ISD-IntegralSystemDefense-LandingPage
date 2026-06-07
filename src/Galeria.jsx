@@ -5,7 +5,6 @@ import uno from '../assets/fotos/uno.jpeg';
 import dos from '../assets/fotos/dos.jpeg';
 import tres from '../assets/fotos/tres.jpg';
 import cuatro from '../assets/fotos/cuatro.jpg';
-import cinco from '../assets/fotos/cinco.jpg';
 import seis from '../assets/fotos/seis.jpg';
 import siete from '../assets/fotos/siete.jpg';
 import ocho from '../assets/fotos/ocho.jpg';
@@ -13,7 +12,6 @@ import nueve from '../assets/fotos/nueve.jpg';
 import diez from '../assets/fotos/diez.jpg';
 import once from '../assets/fotos/once.jpg';
 import doce from '../assets/fotos/doce.jpg';
-import trece from '../assets/fotos/trece.jpg';
 import catorce from '../assets/fotos/catorce.jpg';
 import quince from '../assets/fotos/quince.jpg';
 import dieciseis from '../assets/fotos/dieciseis.jpg';
@@ -77,12 +75,17 @@ const Galeria = () => {
             <h3>IMÁGENES DE CLASES Y EVENTOS</h3>
         </div>
         <div className='galeria-container'>
+            <img src={uno} alt="Uno"/>
+            <img src={dos} alt="Dos" />
+            <img src={tres} alt="Tres" />
+            <img src={cuatro} alt="Cuatro" />
+            <img src={seis} alt="Seis" />
+            <img src={siete} alt="Siete" />
             <img src={ocho} alt="Ocho" />
             <img src={nueve} alt="Nueve" />
             <img src={diez} alt="Diez" />
             <img src={once} alt="Once" />
             <img src={doce} alt="Doce" />
-            <img src={trece} alt="Trece" />
             <img src={catorce} alt="Catorce" />
             <img src={quince} alt="Quince" />
             <img src={dieciseis} alt="Dieciseis" />
