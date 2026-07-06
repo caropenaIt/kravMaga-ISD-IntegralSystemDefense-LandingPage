@@ -23,7 +23,7 @@ const Sedes = () => {
       <div className="sedes-container">
         {/* SEDE 1 */}
         <article className="tarjeta-sede">
-          <p className="texto-rojo">SEDE 01</p>
+          <p className="texto-rojo">SEDE 01 <br />SEDE CENTRAL</p>
           <h3>MORENO, BUENOS AIRES, ARGENTINA</h3>
           <img src={marce} alt="Marcelo Olmos" />
           <p className="zona">MARCELO ALEJANDRO OLMOS</p>
@@ -122,7 +122,7 @@ const Sedes = () => {
         {/* SEDE 6 */}
           <article className="tarjeta-sede">
           <p className="texto-rojo">SEDE 06</p>
-          <h3>HAEDO, BUENOS AIRES, ARGENTINA</h3>
+          <h3>SAN MIGUEL, BUENOS AIRES, ARGENTINA</h3>
           <img src={nahuel} alt="Nahuel Sussini" />
           <p className="zona">NAHUEL SUSSINI</p>
           <div className="info-sede">
@@ -132,11 +132,11 @@ const Sedes = () => {
             <p className='icono'>📱 +54 9 11 3865-3757</p>
           </div>
           <div className="info-sede">
-            <p className="icono">📸 @krav.maga_haedo - Instagram</p>
+            <p className="icono">📸 @isdkm.sanmiguel - Instagram</p>
           </div>
           <div className="botones-sede">
             <button><a className="boton-whatsapp" href="https://wa.me/5491138653757" target='_blank'>💬 WHATSAPP</a></button>
-            <button><a className="boton-instagram" href="https://instagram.com/krav.maga_haedo" target='_blank'>📸 INSTAGRAM</a></button>
+            <button><a className="boton-instagram" href="https://www.instagram.com/isdkm.sanmiguel" target='_blank'>📸 INSTAGRAM</a></button>
           </div>
         </article>
         {/* SEDE 7 */}
